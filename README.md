@@ -1,1 +1,1 @@
-# geography-aware-ssl
+# Geography-Aware Self-Supervised Learning
