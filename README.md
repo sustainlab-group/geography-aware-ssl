@@ -1,7 +1,7 @@
 ## Geography-Aware Self-Supervised Learning (ICCV 2021)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sustainlab-group/geography-aware-ssl/main/.github/images/ap2.png" width="300">
+  <img src="https://raw.githubusercontent.com/sustainlab-group/geography-aware-ssl/main/.github/images/ap2.png" width="500">
 </p>
 
 
