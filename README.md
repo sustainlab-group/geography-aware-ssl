@@ -87,7 +87,7 @@ Our pre-trained ResNet-50 models can be downloaded as following:
 The instructions to download GeoImageNet dataset are given <a href="https://github.com/sustainlab-group/geography-aware-ssl/tree/main/geoimagenet_downloader">here</a>.
 
 ### Transfer Learning Experiments
-We use Retina-Net implementation from this <a href="https://github.com/yhenon/pytorch-retinanet">repository for object detection experiments on xView. We use PSANet implementation from this <a href="https://github.com/hszhao/semseg">repository for semantic segmentation experiments on SpaceNet.
+We use Retina-Net implementation from this <a href="https://github.com/yhenon/pytorch-retinanet">repository</a> for object detection experiments on xView. We use PSANet implementation from this <a href="https://github.com/hszhao/semseg">repository</a> for semantic segmentation experiments on SpaceNet.
 
 
 ### Citing
