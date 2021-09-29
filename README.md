@@ -3,7 +3,7 @@
 
 
 
-[Kumar Ayush](https://kayush95.github.io)<sup>\*</sup>, [Burak Uzkent](https://uzkent.github.io/)<sup>\*</sup>, [Chenlin Meng](https://cs.stanford.edu/~chenlin/)<sup>\*</sup>, [Kumar Tanmay], [Marshall Burke](https://web.stanford.edu/~mburke/), [David Lobell](https://earth.stanford.edu/people/david-lobell), [Stefano Ermon](https://cs.stanford.edu/~ermon/).
+[Kumar Ayush](https://kayush95.github.io)<sup>\*</sup>, [Burak Uzkent](https://uzkent.github.io/)<sup>\*</sup>, [Chenlin Meng](https://cs.stanford.edu/~chenlin/)<sup>\*</sup>, [Kumar Tanmay](), [Marshall Burke](https://web.stanford.edu/~mburke/), [David Lobell](https://earth.stanford.edu/people/david-lobell), [Stefano Ermon](https://cs.stanford.edu/~ermon/).
 <br> Stanford University
 <br>In [ICCV](https://arxiv.org/abs/2011.09980), 2021.
 
@@ -12,7 +12,7 @@
 </p>
 
 
-This is a PyTorch implementation of **Geography-Aware Self-Supervised Learning** (https://arxiv.org/abs/2011.09980). We use the the official implementation of <a href="https://github.com/facebookresearch/moco">MoCo-v2</a> for developing our methods.
+This is a PyTorch implementation of [Geography-Aware Self-Supervised Learning](https://arxiv.org/abs/2011.09980). We use the the official implementation of <a href="https://github.com/facebookresearch/moco">MoCo-v2</a> for developing our methods.
 
 ### fMoW Dataset
 
@@ -24,6 +24,10 @@ You can create csvs similar to the ones in the `csvs/` folder.
 </p>
 
 Map showing distribution of the fMoW dataset.
+
+### Preparation
+
+Install PyTorch and download the fMoW dataset.
 
 ### Unsupervised Training
 
