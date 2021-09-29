@@ -1,4 +1,11 @@
 ## Geography-Aware Self-Supervised Learning (ICCV 2021)
+[**Project**](https://geography-aware-ssl.github.io/) | [**Paper**](https://arxiv.org/abs/2011.09980) | [**Poster**](https://geography-aware-ssl.github.io/static/images/ICCV%202021%20Poster.png)
+
+
+
+[Kumar Ayush](https://kayush95.github.io)<sup>*</sup>, [Burak Uzkent](https://uzkent.github.io/)<sup>*</sup>, [Chenlin Meng](https://cs.stanford.edu/~chenlin/)<sup>*</sup>, [Kumar Tanmay], [Marshall Burke](https://web.stanford.edu/~mburke/), [David Lobell](https://earth.stanford.edu/people/david-lobell), [Stefano Ermon](https://cs.stanford.edu/~ermon/).
+<br> Stanford University
+<br>In [ICCV](https://arxiv.org/abs/2011.09980), 2021.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/sustainlab-group/geography-aware-ssl/main/.github/images/ap2.png" width="500">
@@ -6,10 +13,6 @@
 
 
 This is a PyTorch implementation of **Geography-Aware Self-Supervised Learning** (https://arxiv.org/abs/2011.09980). We use the the official implementation of <a href="https://github.com/facebookresearch/moco">MoCo-v2</a> for developing our methods.
-
- * [Project Page](https://geography-aware-ssl.github.io/)
- * [Paper](https://arxiv.org/pdf/2011.09980.pdf)
- * [Poster](https://geography-aware-ssl.github.io/static/images/ICCV%202021%20Poster.png)
 
 ### fMoW Dataset
 
