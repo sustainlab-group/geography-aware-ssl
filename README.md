@@ -3,7 +3,7 @@
 
 
 
-[Kumar Ayush](https://kayush95.github.io)<sup>$\*</sup>, [Burak Uzkent](https://uzkent.github.io/)<sup>\*</sup>, [Chenlin Meng](https://cs.stanford.edu/~chenlin/)<sup>\*</sup>, [Kumar Tanmay], [Marshall Burke](https://web.stanford.edu/~mburke/), [David Lobell](https://earth.stanford.edu/people/david-lobell), [Stefano Ermon](https://cs.stanford.edu/~ermon/).
+[Kumar Ayush](https://kayush95.github.io)<sup>\*</sup>, [Burak Uzkent](https://uzkent.github.io/)<sup>\*</sup>, [Chenlin Meng](https://cs.stanford.edu/~chenlin/)<sup>\*</sup>, [Kumar Tanmay], [Marshall Burke](https://web.stanford.edu/~mburke/), [David Lobell](https://earth.stanford.edu/people/david-lobell), [Stefano Ermon](https://cs.stanford.edu/~ermon/).
 <br> Stanford University
 <br>In [ICCV](https://arxiv.org/abs/2011.09980), 2021.
 
@@ -18,6 +18,12 @@ This is a PyTorch implementation of **Geography-Aware Self-Supervised Learning**
 
 <a href="https://arxiv.org/abs/1711.07846">Functional Map of the Dataset</a> can be downloaded from their website/repo.
 You can create csvs similar to the ones in the `csvs/` folder.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sustainlab-group/geography-aware-ssl/main/.github/images/fmow_coords.png" width="500">
+</p>
+
+Map showing distribution of the fMoW dataset.
 
 ### Unsupervised Training
 
