@@ -3,7 +3,7 @@
 
 
 
-[Kumar Ayush](https://kayush95.github.io)<sup>*</sup>, [Burak Uzkent](https://uzkent.github.io/)<sup>*</sup>, [Chenlin Meng](https://cs.stanford.edu/~chenlin/)<sup>*</sup>, [Kumar Tanmay], [Marshall Burke](https://web.stanford.edu/~mburke/), [David Lobell](https://earth.stanford.edu/people/david-lobell), [Stefano Ermon](https://cs.stanford.edu/~ermon/).
+[Kumar Ayush](https://kayush95.github.io)<sup>$\times$</sup>, [Burak Uzkent](https://uzkent.github.io/)<sup>$\times$</sup>, [Chenlin Meng](https://cs.stanford.edu/~chenlin/)<sup>$\times$</sup>, [Kumar Tanmay], [Marshall Burke](https://web.stanford.edu/~mburke/), [David Lobell](https://earth.stanford.edu/people/david-lobell), [Stefano Ermon](https://cs.stanford.edu/~ermon/).
 <br> Stanford University
 <br>In [ICCV](https://arxiv.org/abs/2011.09980), 2021.
 
