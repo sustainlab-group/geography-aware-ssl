@@ -65,6 +65,7 @@ Our pre-trained ResNet-50 models can be downloaded as following:
 <th valign="bottom">model</th>
 <!-- TABLE BODY -->
 <tr><td align="left">MoCo-v2</td>
+<td align="center">200</td>
 <td align="center"><a href="">download</a></td>
 </tr>
 <tr><td align="left">MoCo-v2-Geo</td>
