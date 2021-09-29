@@ -89,7 +89,8 @@ The instructions to download GeoImageNet dataset are given <a href="https://gith
 We use Retina-Net implementation from this <a href="https://github.com/yhenon/pytorch-retinanet">repository for object detection experiments on xView. We use PSANet implementation from this <a href="https://github.com/hszhao/semseg">repository for semantic segmentation experiments on SpaceNet.
 
 
-### Citation
+### Citing
+If you find our work useful, please consider citing:
 ```
 @article{ayush2021geography,
       title={Geography-Aware Self-Supervised Learning},
