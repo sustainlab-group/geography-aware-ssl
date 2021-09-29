@@ -7,6 +7,10 @@
 
 This is a PyTorch implementation of the [Geography-Aware Self-Supervised Learning] (https://arxiv.org/abs/2011.09980). We use the the official implementation of <a href="https://github.com/facebookresearch/moco">MoCo-v2</a> for developing our methods.
 
+ * [Project Page](https://geography-aware-ssl.github.io/)
+ * [Paper](https://arxiv.org/pdf/2011.09980.pdf)
+ * [Poster](https://geography-aware-ssl.github.io/static/images/ICCV%202021%20Poster.png)
+
 ### fMoW Dataset
 
 <a href="https://arxiv.org/abs/1711.07846">Functional Map of the Dataset</a> can be downloaded from their website/repo.
