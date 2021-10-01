@@ -97,7 +97,31 @@ Our pre-trained ResNet-50 models can be downloaded as following:
 </tbody></table>
 
 ### GeoImageNet
-The instructions to download GeoImageNet dataset are given <a href="https://github.com/sustainlab-group/geography-aware-ssl/tree/main/geoimagenet_downloader">here</a>.
+**Download the GeoImageNet** - The instructions to download GeoImageNet dataset are given <a href="https://github.com/sustainlab-group/geography-aware-ssl/tree/main/geoimagenet_downloader">here</a>. Using this repository, we can download in the order of 2M images together with their coordinates. In the paper, we use 540k images for the GeoImageNet. 
+
+**Clustering** - Once, we download the GeoImageNet dataset, we can use a clustering algorithm to cluster the images using their geo-coordinates. In the paper, we use K-means clustering to cluster 540k images into 100 clusters, however, any clustering algorithm can be used.
+
+**Perform Self-Supervised Learning** - After downloading the GeoImageNet and clustering the images, we can perform self-supervised learning. To do it, you can execute the following command :
+```
+python moco_fmow/main_moco_geo+tp.py \ 
+    -a resnet50 \
+    --lr 0.03 \
+    --dist-url 'tcp://localhost:14653' --multiprocessing-distributed --moco-t 0.02 --world-size 1 --rank 0 --mlp -j 4 \
+    --loss cpc --epochs 200 --batch-size 256 --moco-dim 128 --aug-plus --cos \
+    --save-dir ${PT_DIR} \
+    --data fmow
+```
+
+**Linear Classification** - After learning the representations with MoCo-v2-geo, we can train the linear layer to classify GeoImageNet images. With a pre-trained model, to train a supervised linear classifier on frozen features/weights in an 4-gpu machine, run:
+```
+python moco_fmow/main_lincls.py \
+    -a resnet50 \
+    --lr 1 \
+    --dist-url 'tcp://localhost:14653' --multiprocessing-distributed --world-size 1 --rank 0 -j 4 \
+    --pretrained=${PT_DIR} \
+    --save-dir ${PTDIR}/lincls \
+    --data fmow --batch-size 256
+```
 
 ### Transfer Learning Experiments
 We use Retina-Net implementation from this <a href="https://github.com/yhenon/pytorch-retinanet">repository</a> for object detection experiments on xView. We use PSANet implementation from this <a href="https://github.com/hszhao/semseg">repository</a> for semantic segmentation experiments on SpaceNet.
