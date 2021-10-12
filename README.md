@@ -97,7 +97,7 @@ Our pre-trained ResNet-50 models can be downloaded as following:
 </tbody></table>
 
 ### GeoImageNet
-**Download the GeoImageNet** - The instructions to download GeoImageNet set are given <a href="https://github.com/sustainlab-group/geography-aware-ssl/tree/main/geoimagenet_downloader">here</a>. Using this repository, we can download in the order of 2M images together with their coordinates. In the paper, we use 540k images for the GeoImageNet. The download process should download the images into their representative class folder.
+**Download the GeoImageNet** - The instructions to download GeoImageNet set are given <a href="https://github.com/sustainlab-group/geography-aware-ssl/tree/main/geoimagenet_downloader">here</a>. Using this repository, we can download in the order of 2M images together with their coordinates. In the paper, we use 540k images for the GeoImageNet. The download process should download the images into their representative class folder. We recommend parallelizing the download process for efficiency.
 
 **Clustering** - Once, we download the GeoImageNet dataset, we can use a clustering algorithm to cluster the images using their geo-coordinates. In the paper, we use K-means clustering to cluster 540k images into 100 clusters, however, any clustering algorithm can be used. After K-means clustering, we need to create a csv file similar to ones in the **./csvs/** folder.
 
