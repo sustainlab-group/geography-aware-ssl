@@ -88,11 +88,11 @@ Our pre-trained ResNet-50 models can be downloaded as following:
 </tr>
 <tr><td align="left">MoCo-v2-TP</td>
 <td align="center">200</td>
-<td align="center"><a href="https://zenodo.org/api/files/0d465a61-dbfb-4548-9ff7-8cee50cad795/moco_tp.pth.tar?versionId=c597b4e0-c401-4a33-855e-f5afae4a855c">download</a></td>
+<td align="center"><a href="https://zenodo.org/record/7379715/files/moco_tp.pth.tar?download=1">download</a></td>
 </tr>
 <tr><td align="left">MoCo-v2+Geo+TP</td>
 <td align="center">200</td>
-<td align="center"><a href="https://zenodo.org/api/files/0d465a61-dbfb-4548-9ff7-8cee50cad795/moco_geo+tp.pth.tar?versionId=35a5396d-edf5-43ab-95bf-63b7db7b5731">download</a></td>
+<td align="center"><a href="https://zenodo.org/record/7379715/files/moco_geo%2Btp.pth.tar?download=1">download</a></td>
 </tr>
 </tbody></table>
 
